@@ -1,3 +1,62 @@
+mplement this single page listing site https://www.figma.com/file/oKN9NbDMHh99WaQXyvAPN9/Rentalwebsite?node-id=0%3A1
+You should be using vanilla CSS, HTML, and React to build this. Please do not use any CSS framework like 
+Bootstrap, Material UI, etc.
+## Screenshots in Desktop View
+
+#### Main Screen 
+![App Screenshot](https://snipboard.io/ri5Ac9.jpg)
+
+#### Second Screens
+![App Screenshot](https://snipboard.io/TLhyQt.jpg)
+
+#### Third Screen
+![APP Screenshot](https://snipboard.io/cJ1wiX.jpg)
+
+![APP Screenshot](https://snipboard.io/Nlchw3.jpg)
+
+
+## Screenshots in Mobile View
+
+#### Main Screen 
+![App Screenshot](https://snipboard.io/tH1RlB.jpg)
+
+#### Second Screens
+![App Screenshot](https://snipboard.io/WwsHQ5.jpg)
+
+#### Third Screen
+![APP Screenshot](https://snipboard.io/TWfHVh.jpg)
+
+![APP Screenshot](https://snipboard.io/mOo2hW.jpg)
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/niteenkum/code-20221029-niteenkumar
+```
+
+Go to the project directory
+
+```bash
+  cd code-20221029-niteenkumar
+```
+
+Install dependencies
+
+```bash
+  yarn
+```
+
+Start the server
+
+```bash
+  yarn start
+
+  View on http://localhost:3000/
+```
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
