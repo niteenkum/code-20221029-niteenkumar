@@ -6,7 +6,7 @@ Bootstrap, Material UI, etc.
 #### Main Screen 
 ![App Screenshot](https://snipboard.io/ri5Ac9.jpg)
 
-#### Second Screens
+#### Second Screen
 ![App Screenshot](https://snipboard.io/TLhyQt.jpg)
 
 #### Third Screen
