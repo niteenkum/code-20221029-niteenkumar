@@ -7,14 +7,9 @@ export default function AboutUsScreen() {
   const image2 = require("../assets/chapter2.png");
   const image3 = require("../assets/chapter3.png");
   const image4 = require("../assets/chapter4.png");
-  // var divImage = {
-  //   backgroundImage : "url(" + image + ")",
-  //   borderRadius: "16px",
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-  // }
 
   return (
+/* A React component for rendering about screen. */
     <div className="second-screen">
       <EHeading heading="About Us" />
       <ESubHeading title={"Allow us to tell you a short story..."} />

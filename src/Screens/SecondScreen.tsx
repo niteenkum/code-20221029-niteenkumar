@@ -32,6 +32,7 @@ export default function SecondScreen() {
   ];
 
   return (
+   /* A React component which is used to render the second screen where all the hotel are displayed with there price.. */
     <div className="second-screen">
       <EHeading 
       heading="Explore"

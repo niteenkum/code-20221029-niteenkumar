@@ -1,21 +1,23 @@
 import "./components.css";
 
-export default function EInput() {
+/* Defining the props that the component will receive. */
+interface IProps {
+  label: string;
+  placeholder: string;
+  options: any[];
+}
+
+export default function EInput( { label, placeholder,options}: IProps ) {
   return (
     <div className='e-input'>
-        <p className="label">City</p>
-        <select className="select" placeholder="Enter your city">
-            <option value="1">Mumbai</option>
-            <option value="2">Delhi</option>
-            <option value="3">Bangalore</option>
-            <option value="4">Chennai</option>
-            <option value="5">Kolkata</option>
-            <option value="6">Pune</option>
-            <option value="7">Jaipur</option>
-            <option value="8">Hyderabad</option>
-            <option value="9">Ahmedabad</option>
-            <option value="10">Chandigarh</option>
-
+        <p className="label">{label}</p>
+        <select className="select" placeholder={placeholder}>
+       {/* A map function that is being called to render all the options. */}
+          {
+            options.map((item, index) => {
+              return <option key={index} value={item}>{item}</option>
+            })
+          }
         </select>
     </div>
   )

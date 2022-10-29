@@ -4,6 +4,7 @@ import { useState } from "react";
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
   return (
+  /* A React component for rendering the header. */
     <div className="header">
       <div className="logo">
         <p>Your Logo</p>

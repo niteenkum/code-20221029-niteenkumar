@@ -1,3 +1,4 @@
+/* Setting the padding, display, justify-content, margin, and width of the footer. */
 .footer {
   padding: 0 1.063rem 0 1.063rem;
   display: flex;
@@ -6,6 +7,7 @@
   /* width: 100%; */
 }
 
+/* Setting the font-family, font-style, font-weight, and font-size of the logo. */
 .footer .logo {
   font-family: "Dancing Script";
   font-style: normal;
@@ -13,6 +15,7 @@
   font-size: 2rem;
 }
 
+/* Setting the font-family, font-style, font-weight, font-size, and line-height of the logo-text. */
 .footer .logo-text {
   font-family: "Ubuntu";
   font-style: normal;
@@ -49,6 +52,7 @@
   justify-content: center;
 }
 
+/* Setting the padding, justify-content, flex-direction, and width of the footer and footer-items. */
 @media screen and (min-width: 768px) {
   .footer {
     padding: 0 4.063rem 0 4.063rem;

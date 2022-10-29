@@ -2,6 +2,7 @@ import "./footer.css"
 
 export default function Footer() {
   return (
+    /* A footer component. */
     <div className="footer">
       <div>
         <p  className="logo">Your Logo</p>

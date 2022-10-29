@@ -1,3 +1,4 @@
+/* The CSS for the input box. */
 .e-input {
   height: 60px;
   background: #ffffff;
@@ -5,6 +6,7 @@
   margin-top: 1.4rem;
 }
 
+/* A class that is used to style the label of the input box. */
 .label {
   font-size: 0.8rem;
   font-weight: 400;
@@ -13,6 +15,7 @@
   font-family: Exo 2;
 }
 
+/* Styling the select element. */
 .select {
   font-family: "Ubuntu";
   font-style: normal;
@@ -24,17 +27,20 @@
   margin: 0 0 0 0.5rem;
 }
 
+/* Removing the default arrow from the select element. */
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   text-indent: 1px;
   text-overflow: "";
   outline: none;
+  cursor: pointer;
 }
 
 /* EButton */
 
 .e-button {
+  cursor: pointer;
   height: 60px;
   background: #ffffff;
   border-radius: 16px;
@@ -52,6 +58,7 @@ select {
   align-items: center;
 }
 
+/* Styling the icon inside the button. */
 .e-button .icon {
   cursor: pointer;
   color: white;
@@ -89,6 +96,7 @@ select {
   margin-bottom: 5rem;
 }
 
+/* Styling the card details. */
 .e-card .e-card-details {
   width: 80%;
   height: 70px;
@@ -121,6 +129,7 @@ select {
   line-height: 110%;
 }
 
+/* Styling the button. */
 .e-book-label {
   width: 100px;
   height: 50px;
@@ -144,6 +153,8 @@ select {
 
 /* For other devices */
 
+/* A media query. It is used to change the style of the elements when the screen size is greater than
+768px. */
 @media screen and (min-width: 768px) {
   .e-input {
     width: 100%;
