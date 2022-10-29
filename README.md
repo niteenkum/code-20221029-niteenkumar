@@ -1,6 +1,9 @@
 Implement this single page listing site https://www.figma.com/file/oKN9NbDMHh99WaQXyvAPN9/Rentalwebsite?node-id=0%3A1
 You should be using vanilla CSS, HTML, and React to build this. Please do not use any CSS framework like 
 Bootstrap, Material UI, etc.
+
+#### Hosted URL: https://niteenkum.github.io/code-20221029-niteenkumar/
+
 ## Screenshots in Desktop View
 
 #### Main Screen 
