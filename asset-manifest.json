@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/code-20221029-niteenkumar/static/css/main.aa82401c.css",
+    "main.js": "/code-20221029-niteenkumar/static/js/main.8dbc1c1f.js",
+    "static/js/787.cc32c910.chunk.js": "/code-20221029-niteenkumar/static/js/787.cc32c910.chunk.js",
+    "static/media/main-screen-bg.png": "/code-20221029-niteenkumar/static/media/main-screen-bg.a12f9789ad9edb6ff861.png",
+    "static/media/chapter4.png": "/code-20221029-niteenkumar/static/media/chapter4.a2bff9cb25d268b408a2.png",
+    "static/media/chapter2.png": "/code-20221029-niteenkumar/static/media/chapter2.f3f18a0d8f0ec1d761e3.png",
+    "static/media/chapter3.png": "/code-20221029-niteenkumar/static/media/chapter3.28ed75fdd33a18213e29.png",
+    "static/media/pexels1.png": "/code-20221029-niteenkumar/static/media/pexels1.0cc37fc151f7e07128c9.png",
+    "static/media/pexels2.png": "/code-20221029-niteenkumar/static/media/pexels2.62a26b1e7f4cd933a3d6.png",
+    "static/media/chapter1.png": "/code-20221029-niteenkumar/static/media/chapter1.d2e0a96bd83a3e12a6a9.png",
+    "index.html": "/code-20221029-niteenkumar/index.html",
+    "main.aa82401c.css.map": "/code-20221029-niteenkumar/static/css/main.aa82401c.css.map",
+    "main.8dbc1c1f.js.map": "/code-20221029-niteenkumar/static/js/main.8dbc1c1f.js.map",
+    "787.cc32c910.chunk.js.map": "/code-20221029-niteenkumar/static/js/787.cc32c910.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa82401c.css",
+    "static/js/main.8dbc1c1f.js"
+  ]
+}
