@@ -1,0 +1,171 @@
+.main-screen {
+  background-image: url("../assets/main-screen-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-screen .heading {
+  font-size: 6.25rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "Exo 2", sans-serif;
+}
+
+.main-screen .sub-heading {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.card-for-input {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    94.43deg,
+    rgba(249, 249, 249, 0.49) 34.95%,
+    rgba(249, 249, 249, 0.175) 67.01%
+  );
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  padding: 0 1.4rem 1.4rem 1.4rem;
+  margin: 20px;
+  width: 80%;
+}
+
+.second-screen {
+  padding: 0 4.063rem 0 4.063rem;
+}
+
+.second-screen .room-image-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: inherit;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 2.5rem 0;
+  position: relative;
+  /* background-image: url("../assets/chapter1.png");
+  border-radius: 16px;
+  background-size: cover;
+  height: 100%; */
+}
+
+.chapter-image {
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 16px;
+}
+
+
+.about-us-chapter .e-card-details {
+  position: absolute;
+  bottom: -5%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    94.43deg,
+    rgba(249, 249, 249, 0.49) 34.95%,
+    rgba(249, 249, 249, 0.175) 67.01%
+  );
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  padding: 0 1.4rem 1.4rem 1.4rem;
+  /* height: 60px; */
+  width: 70%;
+  margin-bottom: -40px;
+  z-index: 20;
+}
+
+.about-us-chapter .e-card-details  .label{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #000;
+}
+
+.about-us-chapter .e-card-details  .text{
+  
+}
+
+/* For Mobile */
+@media screen and (max-width: 600px) {
+  .main-screen .heading {
+    font-size: 3rem;
+  }
+
+  .main-screen .sub-heading {
+    font-size: 1rem;
+  }
+
+  .second-screen .room-image-cards {
+    flex-direction: column;
+  }
+
+  .second-screen {
+    padding: 0 1.063rem 0 1.063rem;
+  }
+}
+
+/* For other devices */
+
+@media screen and (min-width: 768px) {
+  .card-for-input {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .about-us-chapter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .main-screen{
+    background-size:100% 100% ;
+  }
+
+  .chapter-1{
+    max-width: 40%; 
+    height: 100%;
+    margin-right: 7%;
+  }
+
+  .chapter-2{
+    max-width: 50%;
+    height: 100%;
+
+  }
+
+  .chapter-3{
+max-width: 40%;
+margin-right: 7%;
+height: 100%;
+margin-top: -4%;
+
+  }
+
+  .chapter-4{
+    max-width: 50%;
+    height: 100%;
+    margin-top: 2%;
+
+  }
+  
+}
